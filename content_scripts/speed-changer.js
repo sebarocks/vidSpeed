@@ -1,7 +1,7 @@
 //content script
 
 function setSpeed(speed){
-    console.log('setSpeed '+speed);
+    //console.log('setSpeed '+speed);
     let video = document.querySelector('video');
     video.playbackRate = speed*0.01;
 }
