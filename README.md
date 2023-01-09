@@ -6,5 +6,10 @@ WebExtension for Firefox to change the speed of videos playing on a web page
 * Reads current speed of video
 * Changes speed based on slider value (0.5x to 1.5x)
 
+## Installation (debug mode)
 
+This enables the addon temporarily (removes it when browser is closed):
 
+* Navigate to `about:debugging#/runtime/this-firefox`
+* Click *Load Temporary Add-on*
+* Select `manifest.json` file from extension
